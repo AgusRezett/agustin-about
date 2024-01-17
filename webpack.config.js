@@ -18,6 +18,14 @@ module.exports = {
 				test: /\.css$/,
 				use: ['style-loader', 'css-loader'],
 			},
+			{
+				test: /\.(sa|sc|c)ss$/,
+				use: [
+					'style-loader', // 3. Inyecta estilos en el DOM
+					'css-loader', // 2. Convierte CSS en CommonJS
+					'sass-loader', // 1. Convierte Sass en CSS
+				],
+			},
 		],
 	},
 	plugins: [
