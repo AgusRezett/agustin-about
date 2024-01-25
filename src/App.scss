@@ -3,8 +3,39 @@
 .app {
 	background-color: var(--background-color);
 	color: var(--text-color);
+	transition: all 300ms linear;
+	height: 100vh;
 }
 
 .tempStyle {
 	color: var(--text-color);
+}
+
+@keyframes scan-line {
+	0% {
+		left: -100%;
+		opacity: 1;
+	}
+	50% {
+		left: 0;
+	}
+	100% {
+		left: 100%;
+		opacity: 0;
+	}
+}
+
+.Scanner {
+	position: fixed;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background-color: var(--background-color);
+	pointer-events: none;
+	z-index: 9999;
+}
+
+.ScannerAnimation {
+	animation: scan-line 1000ms ease forwards;
 }
