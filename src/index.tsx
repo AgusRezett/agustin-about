@@ -4,14 +4,16 @@ import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { IconContext } from 'react-icons';
+import { LanguageProvider } from './hooks/useLanguageContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
 	<React.StrictMode>
 		<IconContext.Provider value={{ className: 'global-icons' }}>
-			<App />
+			<LanguageProvider>
+				<App />
+			</LanguageProvider>
 		</IconContext.Provider>
-		;
 	</React.StrictMode>
 );
 

@@ -1,0 +1,20 @@
+{
+	"MenuNavigationItems": [
+		{
+			"label": "Experience",
+			"value": 1
+		},
+		{
+			"label": "Education",
+			"value": 2
+		},
+		{
+			"label": "Projects",
+			"value": 3
+		},
+		{
+			"label": "Certificates",
+			"value": 4
+		}
+	]
+}

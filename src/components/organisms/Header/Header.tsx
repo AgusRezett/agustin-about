@@ -1,9 +1,11 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import style from './Header.module.scss';
 import { IoGlobe, IoMoon, IoSunny } from 'react-icons/io5';
 import { toggleTheme } from 'src/utilities/themes';
+import { LanguageContext } from 'src/hooks/useLanguageContext';
 
 const Header = () => {
+	const languageContext = useContext(LanguageContext);
 	const [isDarkMode, setIsDarkMode] = useState(false);
 
 	return (
@@ -12,10 +14,10 @@ const Header = () => {
 				<h1>Agustin Rezett</h1>
 			</a>
 			<div className={style.Menu}>
-				<span className={style.Menu__item}>
+				<span className={style.Menu__item} onClick={() => languageContext.handleLanguageChange(languageContext.language === 'en' ? 'es' : 'en')}>
 					<button className={style.Menu__item__button} aria-label="Change language">
 						<IoGlobe size={20} />
-						<p>ES</p>
+						{languageContext.language === 'en' ? <p>EN</p> : <p>ES</p>}
 					</button>
 				</span>
 				<span className={style.Menu__item} onClick={() => toggleTheme(setIsDarkMode)}>
