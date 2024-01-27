@@ -1,0 +1,45 @@
+// Mixin for flex display
+@mixin flex($direction, $justify-content, $align-items) {
+	display: flex;
+	flex-direction: $direction;
+	justify-content: $justify-content;
+	align-items: $align-items;
+}
+
+// Mixin for vendor prefixes
+@mixin prefix($property, $value) {
+	-webkit-#{$property}: $value;
+	-moz-#{$property}: $value;
+	-ms-#{$property}: $value;
+	-o-#{$property}: $value;
+	#{$property}: $value;
+}
+
+// Mixin for media queries
+@mixin media($breakpoint) {
+	@media screen and (min-width: $breakpoint) {
+		@content;
+	}
+}
+
+// Mixin for clearfix
+@mixin clearfix {
+	&:before,
+	&:after {
+		content: '';
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+// Mixin for box-shadow
+@mixin box-shadow($x, $y, $blur, $spread, $color) {
+	box-shadow: $x $y $blur $spread $color;
+}
+
+// Mixin for transition
+@mixin transition($property, $duration, $timing-function) {
+	transition: $property $duration $timing-function;
+}

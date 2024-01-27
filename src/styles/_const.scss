@@ -1,0 +1,5 @@
+$transition-duration: 300ms;
+
+:root {
+	--transition-duration: #{$transition-duration};
+}

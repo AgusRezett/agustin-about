@@ -1,12 +1,8 @@
 import { SetStateAction } from 'react';
 
-export const toggleTheme = (setScanning: { (value: SetStateAction<boolean>): void; (arg0: boolean): void }) => {
-	setScanning(true);
+export const toggleTheme = (setIsDarkMode: { (value: SetStateAction<boolean>): void; (arg0: boolean): void }) => {
 	const currentTheme = document.documentElement.getAttribute('data-theme');
 	const theme = currentTheme === 'theme-light' ? 'theme-dark' : 'theme-light';
-
 	document.documentElement.setAttribute('data-theme', theme);
-	setTimeout(() => {
-		setScanning(false);
-	}, 1000);
+	setIsDarkMode(theme === 'theme-dark');
 };

@@ -1,0 +1,93 @@
+@import '../../../styles/mixins';
+@import '../../../styles/const';
+
+.Container {
+	@include flex(row, space-between, center);
+}
+
+.Name {
+	// remove default a tag styles
+	text-decoration: none;
+	color: var(--text-color);
+
+	h1 {
+		font-size: 1.25rem;
+		font-weight: 700;
+		transition: all var(--transition-duration) ease-in-out;
+	}
+}
+
+.Menu {
+	@include flex(row, flex-start, center);
+	gap: 0.6rem;
+}
+
+.Menu__item {
+	cursor: pointer;
+	padding: 0.6rem;
+	transition: all var(--transition-duration) ease-in-out;
+
+	&:hover {
+		transform: scale(1.1);
+	}
+
+	.Menu__item__button {
+		position: relative;
+		@include flex(row, center, center);
+		gap: 0.3rem;
+
+		// remove default button styles
+		cursor: pointer;
+		border: none;
+		background: none;
+		outline: none;
+		color: var(--text-color);
+		font-size: 0.9rem;
+		font-weight: 700;
+		text-transform: uppercase;
+
+		p {
+			padding-top: 2px;
+			transition: all var(--transition-duration) ease-in-out;
+		}
+	}
+}
+
+.Scanner {
+	position: relative;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background-color: var(--background-color);
+	pointer-events: none;
+	z-index: 1;
+}
+
+@keyframes scan-line {
+	0% {
+		left: -100%;
+		opacity: 1;
+	}
+	50% {
+		left: 0;
+	}
+	100% {
+		left: 100%;
+		opacity: 0;
+	}
+}
+
+.Scanner__animation {
+	animation: scan-line 1000ms ease forwards;
+}
+
+.Icon__moon__animation__hide,
+.Icon__sun__animation__hide {
+	transform: scale(0);
+	opacity: 0;
+}
+
+.Icon__sun {
+	position: absolute;
+}
