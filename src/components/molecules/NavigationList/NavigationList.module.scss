@@ -8,17 +8,16 @@
 }
 
 .NavigationItem {
+	width: 100%;
+	min-width: 150px;
+	cursor: pointer;
+	padding: 0.6rem 1rem;
 	background-color: var(--background-color-lighter);
 	border-radius: 0.5rem;
 	border: 1px solid #eaeaea;
-	padding: 0.6rem 1rem;
-	width: 100%;
-	cursor: pointer;
-	min-width: 150px;
 
 	font-weight: 600;
-
-	transition: all var(--transition-duration) ease-in-out;
+	transition: background-color var(--transition-duration) ease-in-out;
 
 	&:hover {
 		background-color: var(--background-color-lighter-hover);

@@ -5,9 +5,6 @@
 	gap: 1.5rem;
 }
 
-/* .Container {
-} */
-
 .Container__Inner {
 	padding: 3rem 2rem 3rem 2rem;
 	@include flex(row, space-between, flex-start);
@@ -15,7 +12,7 @@
 	border-radius: 0.5rem;
 
 	background-color: var(--background-color-lighter);
-	transition: all var(--transition-duration) ease-in-out;
+	transition: background-color var(--transition-duration) ease-in-out;
 }
 
 .Navigation {

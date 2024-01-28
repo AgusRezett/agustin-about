@@ -6,7 +6,7 @@
 	z-index: 2;
 	background-color: var(--background-color);
 	color: var(--text-color);
-	transition: all var(--transition-duration) ease-in-out;
+	transition: background-color var(--transition-duration) ease-in-out, color var(--transition-duration) ease-in-out;
 }
 
 header,
