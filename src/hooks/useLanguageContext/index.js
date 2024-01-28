@@ -20,7 +20,9 @@ const LanguageProvider = ({ children }) => {
 		// Update the HTML lang attribute
 		document.documentElement.setAttribute('lang', newLang);
 		// Update the URL with the new language
-		const newLocation = location.replace(lang, newLang);
+		let newLocation = location.replace(lang, newLang);
+		if (location === '/') newLocation = location.replace('/', `/${newLang}`);
+
 		window.history.pushState({}, '', newLocation);
 	};
 
