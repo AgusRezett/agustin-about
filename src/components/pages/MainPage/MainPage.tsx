@@ -8,7 +8,7 @@ const MainPage = () => {
 	const { content } = useContext(LanguageContext) as ILanguageContext;
 
 	return (
-		<div className={style.Container} id="main-page">
+		<div className={style.Container} id="main-section">
 			<aside className={style.Navigation}>
 				<NavigationList />
 			</aside>

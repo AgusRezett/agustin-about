@@ -1,4 +1,12 @@
 {
+	"About": {
+		"name": "Agustin",
+		"lastName": "Rezett",
+		"profession": "React Developer",
+		"email": "agustin.rezett@gmail.com",
+		"profile": "Hi!👋🏻 I am a Frontend Developer with YEARS_EXPERIENCE+ years of experience in technologies such as React, Redux, and HTML/CSS. Specialized in web interfaces and native applications, I stand out for collaborative leadership and creative problem-solving. Passionate about clean code and innovation. Open to new opportunities. Connect to discuss how I can contribute to your team! 🚀",
+		"seniority": "Ssr."
+	},
 	"MenuNavigationItems": [
 		{
 			"label": "Experience",

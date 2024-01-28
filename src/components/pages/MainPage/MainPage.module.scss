@@ -1,5 +1,10 @@
 @import '../../../styles/mixins';
 
+.MainContainer {
+	@include flex(column, flex-start, flex-start);
+	gap: 1.5rem;
+}
+
 .Container {
 	@include flex(row, space-between, flex-start);
 	gap: 1.5rem;

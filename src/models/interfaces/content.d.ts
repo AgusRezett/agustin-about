@@ -1,3 +1,12 @@
+interface IAbout {
+	name: string;
+	lastName: string;
+	profession: string;
+	email: string;
+	profile: string;
+	seniority: string;
+}
+
 interface IExperience {
 	title: string;
 	position: string;
@@ -11,6 +20,7 @@ interface IMenuNavigationItem {
 }
 
 interface IContent {
+	About: IAbout;
 	Experience: IExperience[];
 	MenuNavigationItems: IMenuNavigationItem[];
 }
