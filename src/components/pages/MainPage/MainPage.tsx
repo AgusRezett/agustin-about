@@ -1,20 +1,23 @@
 import React, { useContext } from 'react';
-import './MainPage.module.scss';
+import style from './MainPage.module.scss';
 import { LanguageContext } from 'src/hooks/useLanguageContext';
+import ExperienceSection from 'src/components/organisms/ExperienceSection/ExperienceSection';
+import NavigationList from 'src/components/molecules/NavigationList/NavigationList';
 
 const MainPage = () => {
 	const { content } = useContext(LanguageContext) as ILanguageContext;
 
 	return (
-		<main className="">
-			<aside>
-				<ul>
-					{content.MenuNavigationItems.map((item) => (
-						<li key={`${item.value}`}>{item.label}</li>
-					))}
-				</ul>
+		<div className={style.Container} id="main-page">
+			<aside className={style.Navigation}>
+				<NavigationList />
 			</aside>
-		</main>
+			<main>
+				{content.Experience.map((item) => (
+					<ExperienceSection title={item.title} position={item.position} period={item.period} description={item.description} key={`${item.title}`} />
+				))}
+			</main>
+		</div>
 	);
 };
 

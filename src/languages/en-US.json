@@ -16,5 +16,13 @@
 			"label": "Certificates",
 			"value": 4
 		}
+	],
+	"Experience": [
+		{
+			"title": "Software Developer",
+			"position": "Software Developer",
+			"period": "2019 - Present",
+			"description": "Development of web and mobile applications, using technologies such as: Angular, Ionic, NodeJS, Express, MongoDB, MySQL, among others."
+		}
 	]
 }

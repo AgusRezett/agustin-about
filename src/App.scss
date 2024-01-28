@@ -9,8 +9,8 @@
 	transition: all var(--transition-duration) ease-in-out;
 }
 
-main,
-header {
+header,
+#main-page {
 	max-width: 1024px;
 	padding: 1.5rem;
 	margin: auto;

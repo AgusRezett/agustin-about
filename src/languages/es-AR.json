@@ -16,5 +16,13 @@
 			"label": "Certificados",
 			"value": 4
 		}
+	],
+	"Experience": [
+		{
+			"title": "Desarrollador de Software",
+			"position": "Desarrollador de Software",
+			"period": "2019 - Actualidad",
+			"description": "Desarrollo de aplicaciones web y móviles, utilizando tecnologías como: Angular, Ionic, NodeJS, Express, MongoDB, MySQL, entre otras."
+		}
 	]
 }

@@ -1,8 +1,6 @@
 import React from 'react';
 import SectionTitle from '../../atoms/SectionTitle/SectionTitle';
-import JobPosition from '../../atoms/JobPosition/JobPosition';
-import EmploymentPeriod from '../../atoms/EmploymentPeriod/EmploymentPeriod';
-import JobDescription from '../../atoms/JobDescription/JobDescription';
+import Experience from 'src/components/molecules/Experience/Experience';
 
 interface IExperienceSectionProps {
 	title: string;
@@ -15,9 +13,7 @@ const ExperienceSection = ({ title, position, period, description }: IExperience
 	return (
 		<section>
 			<SectionTitle title={title} />
-			<JobPosition position={position} />
-			<EmploymentPeriod period={period} />
-			<JobDescription description={description} />
+			<Experience position={position} period={period} description={description} />
 		</section>
 	);
 };
