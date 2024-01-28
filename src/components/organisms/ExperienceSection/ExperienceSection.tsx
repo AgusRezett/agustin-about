@@ -9,8 +9,6 @@ interface IExperienceSectionProps {
 }
 
 const ExperienceSection = ({ title, data }: IExperienceSectionProps) => {
-	console.log(data);
-
 	return (
 		<section className={style.Container}>
 			<SectionTitle title={title} />
