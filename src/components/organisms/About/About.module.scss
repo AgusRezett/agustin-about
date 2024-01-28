@@ -17,7 +17,7 @@
 		box-shadow: 0 0 2px 0px var(--background-color), 0 0 0 5px var(--contrast-background-color);
 
 		.ProfilePic {
-			transform: rotateY(180deg); // Add rotateX animation
+			transform: rotateY(180deg); // Flip animation
 		}
 
 		.ProfilePic__First {

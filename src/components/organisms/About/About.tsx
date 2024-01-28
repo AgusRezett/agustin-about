@@ -19,25 +19,7 @@ const About = () => {
 	return (
 		<article className={style.Container} id="about-section">
 			<div className={style.ProfilePicContainer}>
-				<img
-					className={`${style.ProfilePic} ${style.ProfilePic__First}`}
-					/* onMouseOver={(image) => {
-						console.log(image.target);
-
-						setInterval(() => {
-							// @ts-ignore
-							image.target.src = SecondPic;
-						}, 200);
-					}}
-					onMouseOut={(image) => {
-						setInterval(() => {
-							// @ts-ignore
-							image.target.src = FirstPic;
-						}, 200);
-					}} */
-					src={FirstPic}
-					alt="Agustin profile's"
-				/>
+				<img className={`${style.ProfilePic} ${style.ProfilePic__First}`} src={FirstPic} alt="Agustin profile's" />
 				<img className={`${style.ProfilePic} ${style.ProfilePic__Second}`} src={SecondPic} alt="Agustin profile's" />
 			</div>
 			<h1 className={style.Title}>{content.About.profession}</h1>
