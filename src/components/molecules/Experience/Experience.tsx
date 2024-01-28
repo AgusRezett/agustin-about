@@ -1,17 +1,20 @@
 import React from 'react';
+import Company from 'src/components/atoms/Company/Company';
 import EmploymentPeriod from 'src/components/atoms/EmploymentPeriod/EmploymentPeriod';
 import JobDescription from 'src/components/atoms/JobDescription/JobDescription';
 import JobPosition from 'src/components/atoms/JobPosition/JobPosition';
 
 interface IExperienceProps {
+	company: string;
 	position: string;
 	period: string;
 	description: string;
 }
 
-const Experience = ({ position, period, description }: IExperienceProps) => {
+const Experience = ({ company, position, period, description }: IExperienceProps) => {
 	return (
 		<div>
+			{company && <Company company={company} />}
 			<JobPosition position={position} />
 			<EmploymentPeriod period={period} />
 			<JobDescription description={description} />

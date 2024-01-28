@@ -9,14 +9,16 @@ const MainPage = () => {
 
 	return (
 		<div className={style.Container} id="main-section">
-			<aside className={style.Navigation}>
-				<NavigationList />
-			</aside>
-			<main>
-				{content.Experience.map((item) => (
-					<ExperienceSection title={item.title} position={item.position} period={item.period} description={item.description} key={`${item.title}`} />
-				))}
-			</main>
+			<div className={style.Container__Inner}>
+				<aside className={style.Navigation}>
+					<NavigationList />
+				</aside>
+				<main className={style.Content}>
+					{content.MenuNavigationContent.map((item) => (
+						<ExperienceSection key={item.id} title={item.title} data={item.content} />
+					))}
+				</main>
+			</div>
 		</div>
 	);
 };

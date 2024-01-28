@@ -5,9 +5,13 @@
 	gap: 1.5rem;
 }
 
-.Container {
+/* .Container {
+} */
+
+.Container__Inner {
+	padding: 3rem 2rem 3rem 2rem;
 	@include flex(row, space-between, flex-start);
-	gap: 1.5rem;
+	gap: 3rem;
 	border-radius: 0.5rem;
 
 	background-color: var(--background-color-lighter);
@@ -19,4 +23,11 @@
 	gap: 1rem;
 
 	list-style: none;
+	position: sticky;
+	top: 2rem;
+}
+
+.Content {
+	@include flex(column, flex-start, flex-start);
+	gap: 8rem;
 }

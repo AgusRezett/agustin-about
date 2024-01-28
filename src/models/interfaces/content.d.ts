@@ -7,8 +7,14 @@ interface IAbout {
 	seniority: string;
 }
 
-interface IExperience {
+interface IContentSections {
+	id: number;
 	title: string;
+	content: IExperience[];
+}
+
+interface IExperience {
+	company: string;
 	position: string;
 	period: string;
 	description: string;
@@ -21,6 +27,6 @@ interface IMenuNavigationItem {
 
 interface IContent {
 	About: IAbout;
-	Experience: IExperience[];
+	MenuNavigationContent: IContentSections[];
 	MenuNavigationItems: IMenuNavigationItem[];
 }

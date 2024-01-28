@@ -1,19 +1,22 @@
 import React from 'react';
+import style from './ExperienceSection.module.scss';
 import SectionTitle from '../../atoms/SectionTitle/SectionTitle';
 import Experience from 'src/components/molecules/Experience/Experience';
 
 interface IExperienceSectionProps {
 	title: string;
-	position: string;
-	period: string;
-	description: string;
+	data: IExperience[];
 }
 
-const ExperienceSection = ({ title, position, period, description }: IExperienceSectionProps) => {
+const ExperienceSection = ({ title, data }: IExperienceSectionProps) => {
+	console.log(data);
+
 	return (
-		<section>
+		<section className={style.Container}>
 			<SectionTitle title={title} />
-			<Experience position={position} period={period} description={description} />
+			{data.map((item) => (
+				<Experience key={item.company} company={item.company} position={item.position} period={item.period} description={item.description} />
+			))}
 		</section>
 	);
 };

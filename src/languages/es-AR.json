@@ -25,12 +25,58 @@
 			"value": 4
 		}
 	],
-	"Experience": [
+	"MenuNavigationContent": [
 		{
-			"title": "Desarrollador de Software",
-			"position": "Desarrollador de Software",
-			"period": "2019 - Actualidad",
-			"description": "Desarrollo de aplicaciones web y móviles, utilizando tecnologías como: Angular, Ionic, NodeJS, Express, MongoDB, MySQL, entre otras."
+			"id": 1,
+			"title": "Experiencia",
+			"content": [
+				{
+					"company": "Lilab",
+					"position": "Desarrollador de Software",
+					"period": "2019 - Actualidad",
+					"description": "Desarrollo de aplicaciones web y móviles, utilizando tecnologías como: Angular, Ionic, NodeJS, Express, MongoDB, MySQL, entre otras."
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "Educación",
+			"content": [
+				{
+					"degree": "Ingeniería en Sistemas",
+					"university": "Universidad Tecnológica Nacional",
+					"period": "2019 - Actualidad",
+					"description": "Ingeniería en Sistemas"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"title": "Proyectos",
+			"content": [
+				{
+					"title": "Proyecto 1",
+					"description": "Proyecto 1"
+				},
+				{
+					"title": "Proyecto 2",
+					"description": "Proyecto 2"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"title": "Certificados",
+			"content": [
+				{
+					"title": "Certificado 1",
+					"description": "Certificado 1"
+				},
+				{
+					"title": "Certificado 2",
+					"description": "Certificado 2"
+				}
+			]
 		}
 	]
 }
