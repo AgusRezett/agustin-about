@@ -3,4 +3,10 @@
 .Container {
 	@include flex(column, flex-start, flex-start);
 	gap: 3rem;
+	padding-top: 2rem;
+	margin-top: 6rem;
+
+	&:first-child {
+		margin-top: -2rem;
+	}
 }

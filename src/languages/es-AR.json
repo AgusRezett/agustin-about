@@ -31,12 +31,28 @@
 			"title": "Experiencia",
 			"content": [
 				{
-					"title": "Lilab",
-					"subtitle": "Desarrollador de Software",
-					"period": "2019 - Actualidad",
-					"hyperlinkName": "Lilab",
-					"hyperlink": "https://lilab.com.ar/",
-					"description": "Desarrollo de aplicaciones web y móviles, utilizando tecnologías como: Angular, Ionic, NodeJS, Express, MongoDB, MySQL, entre otras."
+					"title": "Desarrollador Frontend",
+					"subtitle": "Lilab · Jornada completa",
+					"period": "Junio 2023 - actualidad",
+					"description": "Colaborar con equipos interfuncionales para optimizar el rendimiento de herramientas digitales, reduciendo tiempos de respuesta y mejorando la experiencia del usuario con interfaces limpias, fluidas, responsivas y amigables."
+				},
+				{
+					"title": "Desarrollador de software",
+					"subtitle": "bdtglobal · Jornada completa",
+					"period": "Febrero 2022 - Agosto 2023 · 1 año 7 meses",
+					"description": "Modernizar productos digitales. Mi enfoque abarca la implementación de nuevas funcionalidades, la optimización del rendimiento y el impulso a la satisfacción del cliente. Mi principal responsabilidad es la identificación de mejoras asegurando la innovación constante y orientar la alineación tecnológica para ofrecer soluciones competitivas."
+				},
+				{
+					"title": "Diseñador y Desarrollador Freelance",
+					"subtitle": "Personal Projects · Autónomo",
+					"period": "Agosto 2020 - Septiembre 2022 · 2 años 2 meses",
+					"description": "Facilité la participación y la satisfacción del usuario mediante la creación de interfaces y experiencias atractivas, utilizando herramientas de diseño como Figma, Adobe Photoshop e Illustrator. Estos esfuerzos contribuyeron a un aumento significativo en las ventas al elevar la participación del usuario a través del desarrollo de aplicaciones web y móviles de alto rendimiento."
+				},
+				{
+					"title": "Analista Desarrollador",
+					"subtitle": "BDT Group SRL · Contrato de prácticas",
+					"period": "Julio 2021 - Diciembre 2021 · 6 meses",
+					"description": "Diseñador, desarrollador frontend y especialista en maquetación en un equipo colaborativo que impulsa el desarrollo de dos aplicaciones web."
 				}
 			]
 		},
@@ -45,10 +61,17 @@
 			"title": "Educación",
 			"content": [
 				{
-					"title": "Ingeniería en Sistemas",
-					"subtitle": "Universidad Tecnológica Nacional",
-					"period": "2019 - Actualidad",
-					"description": "Ingeniería en Sistemas"
+					"title": "Soy Henry",
+					"subtitle": "Fullstack Development",
+					"period": "Junio 2020 - Septiembre 2020"
+				},
+				{
+					"title": "Bachillerato Internacional",
+					"period": "Marzo 2019 - Noviembre 2019"
+				},
+				{
+					"title": "Técnico en computación",
+					"period": "Marzo 2018 - Diciembre 2021"
 				}
 			]
 		},

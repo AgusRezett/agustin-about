@@ -15,7 +15,7 @@ const MainPage = () => {
 				</aside>
 				<main className={style.Content}>
 					{content.MenuNavigationContent.map((item) => (
-						<ExperienceSection key={item.id} title={item.title} data={item.content} />
+						<ExperienceSection key={item.id} data={item.content} id={item.id} title={item.title} />
 					))}
 				</main>
 			</div>
