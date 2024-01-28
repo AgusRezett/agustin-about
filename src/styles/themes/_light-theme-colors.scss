@@ -3,11 +3,13 @@ $secondary-color-light: #f5f5f5;
 $text-color-light: #161b24;
 $background-color-light: #f5f5f5;
 $background-color-lighter-light: #ffffff;
+$background-color-lighter-light-hover: #fcfbfa;
 $contrast-background-color-light: #161b24;
 
 :root[data-theme='theme-light'] {
 	--background-color: #{$background-color-light};
 	--background-color-lighter: #{$background-color-lighter-light};
+	--background-color-lighter-hover: #{$background-color-lighter-light-hover};
 	--contrast-background-color: #{$contrast-background-color-light};
 	--primary-color: #{$primary-color-light};
 	--secondary-color: #{$secondary-color-light};
