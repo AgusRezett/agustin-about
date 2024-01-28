@@ -13,7 +13,7 @@ const ExperienceSection = ({ title, data }: IExperienceSectionProps) => {
 		<section className={style.Container}>
 			<SectionTitle title={title} />
 			{data.map((item) => (
-				<Experience company={item.company} position={item.position} period={item.period} description={item.description} />
+				<Experience title={item.title} subtitle={item.subtitle} period={item.period} description={item.description} />
 			))}
 		</section>
 	);

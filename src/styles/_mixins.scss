@@ -38,8 +38,3 @@
 @mixin box-shadow($x, $y, $blur, $spread, $color) {
 	box-shadow: $x $y $blur $spread $color;
 }
-
-// Mixin for transition
-@mixin transition($property, $duration, $timing-function) {
-	transition: $property $duration $timing-function;
-}

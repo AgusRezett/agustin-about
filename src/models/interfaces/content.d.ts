@@ -14,9 +14,11 @@ interface IContentSections {
 }
 
 interface IExperience {
-	company: string;
-	position: string;
-	period: string;
+	title: string;
+	subtitle?: string;
+	period?: string;
+	hyperlinkName?: string;
+	hyperlink?: string;
 	description: string;
 }
 

@@ -31,8 +31,8 @@
 			"title": "Experiencia",
 			"content": [
 				{
-					"company": "Lilab",
-					"position": "Desarrollador de Software",
+					"title": "Lilab",
+					"subtitle": "Desarrollador de Software",
 					"period": "2019 - Actualidad",
 					"description": "Desarrollo de aplicaciones web y móviles, utilizando tecnologías como: Angular, Ionic, NodeJS, Express, MongoDB, MySQL, entre otras."
 				}
@@ -43,8 +43,8 @@
 			"title": "Educación",
 			"content": [
 				{
-					"degree": "Ingeniería en Sistemas",
-					"university": "Universidad Tecnológica Nacional",
+					"title": "Ingeniería en Sistemas",
+					"subtitle": "Universidad Tecnológica Nacional",
 					"period": "2019 - Actualidad",
 					"description": "Ingeniería en Sistemas"
 				}

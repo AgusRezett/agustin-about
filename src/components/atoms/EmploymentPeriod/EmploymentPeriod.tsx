@@ -1,12 +1,13 @@
 import React from 'react';
+import style from './EmploymentPeriod.module.scss';
 
 interface IEmploymentPeriodProps {
-	period: string;
+	period?: string;
 }
 
 const EmploymentPeriod = ({ period }: IEmploymentPeriodProps) => {
 	return (
-		<p>
+		<p className={style.Text}>
 			<strong>{period}</strong>
 		</p>
 	);

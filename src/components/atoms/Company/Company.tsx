@@ -1,11 +1,11 @@
 import React from 'react';
 
 interface ICompanyProps {
-	company: string;
+	title: string;
 }
 
-const Company = ({ company }: ICompanyProps) => {
-	return <h2>{company}</h2>;
+const Company = ({ title }: ICompanyProps) => {
+	return <h3>{title}</h3>;
 };
 
 export default Company;

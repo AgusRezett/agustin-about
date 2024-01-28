@@ -1,11 +1,11 @@
 import React from 'react';
 
 interface IJobPositionProps {
-	position: string;
+	subtitle?: string;
 }
 
-const JobPosition = ({ position }: IJobPositionProps) => {
-	return <h3>{position}</h3>;
+const JobPosition = ({ subtitle }: IJobPositionProps) => {
+	return <h4>{subtitle}</h4>;
 };
 
 export default JobPosition;

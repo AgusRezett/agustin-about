@@ -11,12 +11,12 @@ interface IExperienceProps {
 	description: string;
 }
 
-const Experience = ({ company, position, period, description }: IExperienceProps) => {
+const Experience = ({ title, subtitle, period, hyperlink, hyperlinkName, description }: IExperience) => {
 	return (
 		<div>
-			{company && <Company company={company} />}
-			<JobPosition position={position} />
+			<Company title={title} />
 			<EmploymentPeriod period={period} />
+			<JobPosition subtitle={subtitle} />
 			<JobDescription description={description} />
 		</div>
 	);
