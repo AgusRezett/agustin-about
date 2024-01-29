@@ -4,7 +4,7 @@
 		"lastName": "Rezett",
 		"profession": "Desarrollador React",
 		"email": "agustin.rezett@gmail.com",
-		"profile": "Hola!👋🏻 Soy un desarrollador Frontend con YEARS_EXPERIENCE+ años de experiencia en tecnologías como React, Redux y HTML/CSS. Especializado en interfaces web y aplicaciones nativas, destaco por liderazgo colaborativo y resolución creativa de problemas. Apasionado por la limpieza de código y la innovación. Abierto a nuevas oportunidades. ¡Conéctate para discutir cómo puedo contribuir a tu equipo! 🚀",
+		"profile": "Hola!👋🏻 Soy un desarrollador Frontend con YEARS_EXPERIENCE+ años de experiencia en tecnologías como React, Redux y HTML/CSS. Especializado en interfaces web y aplicaciones nativas, destaco por liderazgo colaborativo y resolución creativa de problemas. Apasionado por la limpieza de código y la innovación. Abierto a nuevas oportunidades. ¡Conectemos para discutir cómo puedo contribuir a tu equipo! 🚀",
 		"seniority": "Ssr."
 	},
 	"MenuNavigationItems": [
@@ -34,25 +34,25 @@
 					"title": "Desarrollador Frontend",
 					"subtitle": "Lilab",
 					"period": "Junio 2023 - actualidad",
-					"description": "Colaborar con equipos interfuncionales para optimizar el rendimiento de herramientas digitales, reduciendo tiempos de respuesta y mejorando la experiencia del usuario con interfaces limpias, fluidas, responsivas y amigables."
+					"description": "Implementación avanzada de pruebas unitarias utilizando Jest para asegurar la robustez y fiabilidad de los componentes React./sDesarrollo y conversión meticulosa de interfaces desde prototipos de alta fidelidad a código funcional, manteniendo la integridad del diseño original./sIntegración eficiente de Server Side Rendering (SSR) en prototipos, guiado por especificaciones de User Histories (UH), optimizando la carga y el rendimiento./sRealización de demostraciones centradas en la experiencia del usuario, destacando funcionalidades y flujos de interacción intuitivos./sCoordinación y estimación precisa de tareas dentro del equipo, fomentando una colaboración eficaz y un enfoque orientado a resultados./sContribución activa en la evolución y mejora de la arquitectura de proyectos, enfocándome en la escalabilidad y mantenibilidad./sLiderazgo en la integración de cambios de APIs y conexión con microservicios, garantizando una comunicación fluida y segura entre sistemas./sParticipación estratégica en la planificación de mejoras del modelo de negocio, evaluando su impacto en la experiencia del usuario y la propuesta de valor."
 				},
 				{
 					"title": "Desarrollador de software",
 					"subtitle": "bdtglobal",
 					"period": "Febrero 2022 - Agosto 2023 · 1 año 7 meses",
-					"description": "Modernizar productos digitales. Mi enfoque abarca la implementación de nuevas funcionalidades, la optimización del rendimiento y el impulso a la satisfacción del cliente. Mi principal responsabilidad es la identificación de mejoras asegurando la innovación constante y orientar la alineación tecnológica para ofrecer soluciones competitivas."
+					"description": "Migración exitosa de aplicaciones Cordova a React Native./sPresentación de nuevas características, demostrando habilidades comunicativas y técnicas./sRealización de despliegues semanales a entorno de producción, atendiendo a una amplia base de usuarios en la industria de seguros en Argentina./sCoordinación eficaz en proyectos internacionales de smart-contracts en la red Polygon, gestionando trabajo paralelo de manera efectiva./sMantenimiento y desarrollo de portales de gestión de usuarios utilizando tecnologías Laravel y Node, asegurando funcionalidad y rendimiento./sContribución valiosa como consultor de diseño en integraciones de proyectos externos, aportando perspectivas técnicas y creativas."
 				},
 				{
-					"title": "Diseñador y Desarrollador Freelance",
+					"title": "Diseñador UX/UI y Desarrollador Freelance",
 					"subtitle": "Freelancer",
 					"period": "Agosto 2020 - Septiembre 2022 · 2 años 2 meses",
-					"description": "Facilité la participación y la satisfacción del usuario mediante la creación de interfaces y experiencias atractivas, utilizando herramientas de diseño como Figma, Adobe Photoshop e Illustrator. Estos esfuerzos contribuyeron a un aumento significativo en las ventas al elevar la participación del usuario a través del desarrollo de aplicaciones web y móviles de alto rendimiento."
+					"description": "Realización del diseño de branding para negocios de diversas industrias, destacando la versatilidad y adaptabilidad creativa./sDesarrollo exitoso de Progressive Web Apps utilizando el stack PERN, asegurando experiencias web avanzadas y funcionales./sPlanificación estratégica de resultados y estimaciones por etapas, garantizando transparencia y eficiencia en el proceso./sComunicación efectiva con clientes de diversas edades, demostrando habilidades para comprender y satisfacer sus expectativas sobre el producto final./sHabilidad destacada en la gestión del tiempo, manejando proyectos de manera paralela con eficacia y compromiso."
 				},
 				{
 					"title": "Analista Desarrollador",
 					"subtitle": "BDT Group SRL",
 					"period": "Julio 2021 - Diciembre 2021 · 6 meses",
-					"description": "Diseñador, desarrollador frontend y especialista en maquetación en un equipo colaborativo que impulsa el desarrollo de dos aplicaciones web."
+					"description": "Realización integral del diseño, desarrollo y maquetación de un portal destinado a la eficiente gestión de miles de usuarios de clientes en el sector de la energía en Argentina./sDesarrollo de software específico para la gestión de notificaciones virtuales en colegios secundarios de la Ciudad Autónoma de Buenos Aires, fortaleciendo la comunicación efectiva entre la institución educativa y los padres de los estudiantes."
 				}
 			]
 		},
@@ -87,7 +87,7 @@
 							"link": "https://www.behance.net/gallery/147025537/Mino-App-Finanzas-personales"
 						},
 						{
-							"name": "Sitio web",
+							"name": "Sitio web (demo)",
 							"link": "https://mino-agusrezett.vercel.app/"
 						}
 					]

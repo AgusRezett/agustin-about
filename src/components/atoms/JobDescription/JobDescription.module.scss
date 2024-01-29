@@ -1,0 +1,30 @@
+@import '../../../styles/mixins';
+
+.List {
+	@include flex(column, flex-start, flex-start);
+	gap: 0.5rem;
+	list-style: none;
+}
+.List__Item {
+	@include flex(row, flex-start, flex-start);
+	gap: 1rem;
+
+	& > div {
+		line-height: 1.8rem;
+	}
+}
+
+.List__Item__Point {
+	display: flex;
+	width: 0.4rem;
+	height: 0.4rem;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	background-color: var(--background-color);
+	margin-top: 0.6rem;
+}
+
+.List__Item__FirstWord {
+	gap: 0.5rem;
+	font-weight: 700;
+}
