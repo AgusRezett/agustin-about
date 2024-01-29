@@ -13,15 +13,23 @@
 
 	background-color: var(--background-color-lighter);
 	transition: background-color var(--transition-duration) ease-in-out;
+
+	@media (width < 768px) {
+		@include flex(column, flex-start, flex-start);
+	}
 }
 
 .Navigation {
 	@include flex(column, flex-start, flex-start);
-	gap: 1rem;
+	width: 100%;
 
 	list-style: none;
 	position: sticky;
 	top: 2rem;
+
+	@media (width < 768px) {
+		position: static;
+	}
 }
 
 .Content {

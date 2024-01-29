@@ -24,6 +24,7 @@
 .Menu__item {
 	cursor: pointer;
 	padding: 0.6rem;
+	transition: all var(--transition-duration) ease-in-out;
 
 	&:hover {
 		transform: scale(1.1);

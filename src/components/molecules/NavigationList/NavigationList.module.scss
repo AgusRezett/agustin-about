@@ -1,10 +1,11 @@
 @import '../../../styles/mixins';
 
 .NavigationList {
+	position: relative;
 	@include flex(column, flex-start, flex-start);
 	gap: 1rem;
-
 	list-style: none;
+	width: 100%;
 }
 
 .NavigationItem {
