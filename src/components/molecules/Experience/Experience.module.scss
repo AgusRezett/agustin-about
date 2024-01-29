@@ -1,0 +1,11 @@
+@import '../../../styles/mixins';
+
+.Container {
+	@include flex(column, flex-start, flex-start);
+	gap: 1rem;
+}
+
+.Hyperlinks__Container {
+	@include flex(column, flex-start, flex-start);
+	gap: 1rem;
+}

@@ -5,14 +5,11 @@ import { LanguageContext } from 'src/hooks/useLanguageContext';
 const NavigationList = () => {
 	const { content } = useContext(LanguageContext) as ILanguageContext;
 
-	const experienceSection = document.getElementById('content-section-1');
-	const educationSection = document.getElementById('content-section-2');
-	const proyectsSection = document.getElementById('content-section-3');
-	const certificatesSection = document.getElementById('content-section-4');
+	const handleScroll = (sectionId: number) => {
+		const elementId = `content-section-${sectionId}`;
 
-	const handleScroll = (element: HTMLElement | null) => {
-		if (element) {
-			element.scrollIntoView({ behavior: 'smooth' });
+		if (sectionId) {
+			document.getElementById(elementId)?.scrollIntoView({ behavior: 'smooth' });
 		}
 	};
 
@@ -23,22 +20,7 @@ const NavigationList = () => {
 					key={`${item.value}`}
 					className={`${style.NavigationItem} ${item.value === 1 ? style.NavigationItemActive : ''}`}
 					onClick={() => {
-						switch (item.value) {
-							case 1:
-								handleScroll(experienceSection);
-								break;
-							case 2:
-								handleScroll(educationSection);
-								break;
-							case 3:
-								handleScroll(proyectsSection);
-								break;
-							case 4:
-								handleScroll(certificatesSection);
-								break;
-							default:
-								break;
-						}
+						handleScroll(item.value);
 					}}
 				>
 					{item.label}

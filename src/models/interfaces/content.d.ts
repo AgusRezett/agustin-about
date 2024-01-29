@@ -17,9 +17,13 @@ interface IExperience {
 	title: string;
 	subtitle?: string;
 	period?: string;
-	hyperlinkName?: string;
-	hyperlink?: string;
+	hyperlinks?: IHyperlink[];
 	description: string;
+}
+
+interface IHyperlink {
+	name: string;
+	link: string;
 }
 
 interface IMenuNavigationItem {

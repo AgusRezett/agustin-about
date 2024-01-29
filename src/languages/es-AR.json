@@ -61,8 +61,7 @@
 			"title": "Educación",
 			"content": [
 				{
-					"title": "Soy Henry",
-					"subtitle": "Fullstack Development",
+					"title": "Desarrollo Fullstack - Soy Henry",
 					"period": "Junio 2020 - Septiembre 2020"
 				},
 				{
@@ -80,12 +79,28 @@
 			"title": "Proyectos",
 			"content": [
 				{
-					"title": "Proyecto 1",
-					"description": "Proyecto 1"
+					"title": "Mino - App de finanzas personales",
+					"description": "¿Sabías que en Argentina, en el primer mes de 2022, Red Link registró un récord de 43.7 millones de usuarios de dinero digital y un aumento del 87.7% en el monto nominal de transacciones a través de billeteras digitales en comparación con enero del año anterior? Estas transformaciones hacen que el dinero sea un recurso fácil de manejar, lo que a su vez tiende a diversificarse. Por eso creé Mino, una aplicación gratuita donde centralizar fondos de billeteras digitales, cuentas bancarias y criptomonedas es una tarea sencilla, con la cual, en menos de 10 minutos, los usuarios pueden tener una visión clara de su estado financiero sin demoras y conteos estresantes.",
+					"hyperlinks": [
+						{
+							"name": "App design thinking",
+							"link": "https://www.behance.net/gallery/147025537/Mino-App-Finanzas-personales"
+						},
+						{
+							"name": "Sitio web",
+							"link": "https://mino-agusrezett.vercel.app/"
+						}
+					]
 				},
 				{
-					"title": "Proyecto 2",
-					"description": "Proyecto 2"
+					"title": "EcoTech - Sitio promocional",
+					"description": "Presento EcoTech, una empresa ubicada en San Luis (Argentina), que nos planteó el desafío de encontrar una forma de acercarse a potenciales clientes interesados en sus productos y servicios. Nuestra solución: desarrollar un sitio web que transmita seguridad y confianza, amigable para el usuario, y con el atractivo visual que merecen; con una serie de llamados a la acción cuyo flujo de usuario termina con el contacto de nuestro cliente.",
+					"hyperlinks": [
+						{
+							"name": "Prototipo interactivo",
+							"link": "https://www.figma.com/proto/Glal1fjNc3WnNlaHubVr3N/System-Design?node-id=1%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3"
+						}
+					]
 				}
 			]
 		},
@@ -94,12 +109,44 @@
 			"title": "Certificados",
 			"content": [
 				{
-					"title": "Certificado 1",
-					"description": "Certificado 1"
+					"title": "Inglés - C1",
+					"subtitle": "EF SET",
+					"hyperlinks": [
+						{
+							"name": "Ver certificado",
+							"link": "https://www.efset.org/cert/pfwUTa"
+						}
+					]
 				},
 				{
-					"title": "Certificado 2",
-					"description": "Certificado 2"
+					"title": "Diseño UX/UI",
+					"subtitle": "Coderhouse",
+					"hyperlinks": [
+						{
+							"name": "Ver certificado",
+							"link": "https://www.coderhouse.com/certificados/62bb99c4e01bc500192e9d3f"
+						}
+					]
+				},
+				{
+					"title": "Desarrollo de aplicaciones móviles",
+					"subtitle": "Coderhouse",
+					"hyperlinks": [
+						{
+							"name": "Ver certificado",
+							"link": "https://www.coderhouse.com/certificados/62a93ea3800ddc001b96526c"
+						}
+					]
+				},
+				{
+					"title": "Diseño gráfico y branding",
+					"subtitle": "Coderhouse",
+					"hyperlinks": [
+						{
+							"name": "Ver certificado",
+							"link": "https://www.coderhouse.com/certificados/6327ca77215a150024b856ae"
+						}
+					]
 				}
 			]
 		}
