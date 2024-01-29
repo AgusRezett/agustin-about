@@ -31,27 +31,27 @@
 			"title": "Experience",
 			"content": [
 				{
-					"title": "Desarrollador Frontend",
-					"subtitle": "Lilab · Jornada completa",
-					"period": "Junio 2023 - actualidad",
+					"title": "Frontend Developer",
+					"subtitle": "Lilab",
+					"period": "June 2023 - Present",
 					"description": "Colaborar con equipos interfuncionales para optimizar el rendimiento de herramientas digitales, reduciendo tiempos de respuesta y mejorando la experiencia del usuario con interfaces limpias, fluidas, responsivas y amigables."
 				},
 				{
 					"title": "Desarrollador de software",
-					"subtitle": "bdtglobal · Jornada completa",
-					"period": "Febrero 2022 - Agosto 2023 · 1 año 7 meses",
+					"subtitle": "bdtglobal",
+					"period": "February 2022 - August 2023 · 1 year 7 month",
 					"description": "Modernizar productos digitales. Mi enfoque abarca la implementación de nuevas funcionalidades, la optimización del rendimiento y el impulso a la satisfacción del cliente. Mi principal responsabilidad es la identificación de mejoras asegurando la innovación constante y orientar la alineación tecnológica para ofrecer soluciones competitivas."
 				},
 				{
 					"title": "Diseñador y Desarrollador Freelance",
-					"subtitle": "Personal Projects · Autónomo",
-					"period": "Agosto 2020 - Septiembre 2022 · 2 años 2 meses",
+					"subtitle": "Freelancer",
+					"period": "August 2020 - September 2022 · 2 years 2 months",
 					"description": "Facilité la participación y la satisfacción del usuario mediante la creación de interfaces y experiencias atractivas, utilizando herramientas de diseño como Figma, Adobe Photoshop e Illustrator. Estos esfuerzos contribuyeron a un aumento significativo en las ventas al elevar la participación del usuario a través del desarrollo de aplicaciones web y móviles de alto rendimiento."
 				},
 				{
 					"title": "Analista Desarrollador",
-					"subtitle": "BDT Group SRL · Contrato de prácticas",
-					"period": "Julio 2021 - Diciembre 2021 · 6 meses",
+					"subtitle": "BDT Group SRL",
+					"period": "July 2021 - December 2021 · 6 months",
 					"description": "Diseñador, desarrollador frontend y especialista en maquetación en un equipo colaborativo que impulsa el desarrollo de dos aplicaciones web."
 				}
 			]
@@ -62,15 +62,15 @@
 			"content": [
 				{
 					"title": "Fullstack Development - Soy Henry",
-					"period": "Junio 2020 - Septiembre 2020"
+					"period": "June 2020 - September 2020"
 				},
 				{
 					"title": "International Baccalaureate",
-					"period": "Marzo 2019 - Noviembre 2019"
+					"period": "March 2019 - November 2019"
 				},
 				{
 					"title": "Computer technician",
-					"period": "Marzo 2018 - Diciembre 2021"
+					"period": "March 2018 - December 2021"
 				}
 			]
 		},
@@ -80,7 +80,7 @@
 			"content": [
 				{
 					"title": "Mino - Personal finance app",
-					"description": "Did you know that in Argentina, the first month of 2022, Red Link registered a record 43.7 million of digital money users and an increase of 87.7% in the nominal amount of transactions through digital wallets compared to January of the previous year? These transformations makes money an easy resource to manage, which in turn makes it tend to diversify. That is why I created Mino, a free application where centralizing funds from digital wallets, bank accounts and cryptocurrencies is a simple task, with which, in less than 10 minutes, users can have a clear view of their financial status without delays and stressful counts.",
+					"description": "In Argentina, in January 2022, Red Link recorded a record 43.7 million digital money users and an 87.7% increase in transactions through digital wallets. I created Mino, a free app to centralize funds from digital wallets, bank accounts, and cryptocurrencies, offering users a quick and clear view of their financial status.",
 					"hyperlinks": [
 						{
 							"name": "Mobile design thinking",
@@ -94,7 +94,7 @@
 				},
 				{
 					"title": "EcoTech - Promotional site",
-					"description": "I present EcoTech, a venture located in San Luis (Argentina), which proposed us the challenge of finding a way to approach potential customers interested in its products and services. Our solution: develop a website that conveys security and trust, user friendly, and the visual appeal they deserve; with a series of calls to action whose userflow ends with the contact of our client.",
+					"description": "EcoTech, based in San Luis, Argentina, challenged us to attract potential customers. We developed a website that emphasizes security and trust, is user-friendly, visually appealing, and includes effective calls to action leading to client contact.",
 					"hyperlinks": [
 						{
 							"name": "Interactive prototype",

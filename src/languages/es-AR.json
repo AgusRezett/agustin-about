@@ -32,25 +32,25 @@
 			"content": [
 				{
 					"title": "Desarrollador Frontend",
-					"subtitle": "Lilab · Jornada completa",
+					"subtitle": "Lilab",
 					"period": "Junio 2023 - actualidad",
 					"description": "Colaborar con equipos interfuncionales para optimizar el rendimiento de herramientas digitales, reduciendo tiempos de respuesta y mejorando la experiencia del usuario con interfaces limpias, fluidas, responsivas y amigables."
 				},
 				{
 					"title": "Desarrollador de software",
-					"subtitle": "bdtglobal · Jornada completa",
+					"subtitle": "bdtglobal",
 					"period": "Febrero 2022 - Agosto 2023 · 1 año 7 meses",
 					"description": "Modernizar productos digitales. Mi enfoque abarca la implementación de nuevas funcionalidades, la optimización del rendimiento y el impulso a la satisfacción del cliente. Mi principal responsabilidad es la identificación de mejoras asegurando la innovación constante y orientar la alineación tecnológica para ofrecer soluciones competitivas."
 				},
 				{
 					"title": "Diseñador y Desarrollador Freelance",
-					"subtitle": "Personal Projects · Autónomo",
+					"subtitle": "Freelancer",
 					"period": "Agosto 2020 - Septiembre 2022 · 2 años 2 meses",
 					"description": "Facilité la participación y la satisfacción del usuario mediante la creación de interfaces y experiencias atractivas, utilizando herramientas de diseño como Figma, Adobe Photoshop e Illustrator. Estos esfuerzos contribuyeron a un aumento significativo en las ventas al elevar la participación del usuario a través del desarrollo de aplicaciones web y móviles de alto rendimiento."
 				},
 				{
 					"title": "Analista Desarrollador",
-					"subtitle": "BDT Group SRL · Contrato de prácticas",
+					"subtitle": "BDT Group SRL",
 					"period": "Julio 2021 - Diciembre 2021 · 6 meses",
 					"description": "Diseñador, desarrollador frontend y especialista en maquetación en un equipo colaborativo que impulsa el desarrollo de dos aplicaciones web."
 				}
@@ -80,7 +80,7 @@
 			"content": [
 				{
 					"title": "Mino - App de finanzas personales",
-					"description": "¿Sabías que en Argentina, en el primer mes de 2022, Red Link registró un récord de 43.7 millones de usuarios de dinero digital y un aumento del 87.7% en el monto nominal de transacciones a través de billeteras digitales en comparación con enero del año anterior? Estas transformaciones hacen que el dinero sea un recurso fácil de manejar, lo que a su vez tiende a diversificarse. Por eso creé Mino, una aplicación gratuita donde centralizar fondos de billeteras digitales, cuentas bancarias y criptomonedas es una tarea sencilla, con la cual, en menos de 10 minutos, los usuarios pueden tener una visión clara de su estado financiero sin demoras y conteos estresantes.",
+					"description": "En Argentina, en enero de 2022, Red Link registró un récord de 43.7 millones de usuarios de dinero digital y un aumento del 87.7% en transacciones a través de billeteras digitales. Creé Mino, una app gratuita para centralizar fondos de billeteras digitales, cuentas bancarias y criptomonedas, ofreciendo una visión rápida y clara del estado financiero del usuario.",
 					"hyperlinks": [
 						{
 							"name": "App design thinking",
@@ -94,7 +94,7 @@
 				},
 				{
 					"title": "EcoTech - Sitio promocional",
-					"description": "Presento EcoTech, una empresa ubicada en San Luis (Argentina), que nos planteó el desafío de encontrar una forma de acercarse a potenciales clientes interesados en sus productos y servicios. Nuestra solución: desarrollar un sitio web que transmita seguridad y confianza, amigable para el usuario, y con el atractivo visual que merecen; con una serie de llamados a la acción cuyo flujo de usuario termina con el contacto de nuestro cliente.",
+					"description": "EcoTech, con sede en San Luis, Argentina, nos desafió a atraer clientes potenciales. Desarrollamos un sitio web que enfatiza la seguridad y la confianza, es fácil de usar, visualmente atractivo e incluye llamadas a la acción efectivas que conducen al contacto con el cliente.",
 					"hyperlinks": [
 						{
 							"name": "Prototipo interactivo",
