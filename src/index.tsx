@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { IconContext } from 'react-icons';
 import { LanguageProvider } from './hooks/useLanguageContext';
-import { SpeedInsights } from '@vercel/speed-insights/next';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
