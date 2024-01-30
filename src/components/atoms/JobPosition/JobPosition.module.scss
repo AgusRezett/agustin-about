@@ -1,0 +1,11 @@
+@import '../../../styles/mixins';
+
+.Text {
+	@include flex(row, flex-start, flex-start);
+	gap: 0.4rem;
+}
+
+.Additional {
+	color: var(--background-color-border-lighter);
+	font-weight: 800;
+}

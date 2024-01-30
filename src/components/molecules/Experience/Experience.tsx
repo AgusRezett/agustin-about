@@ -11,13 +11,13 @@ interface IExperienceProps {
 }
 
 const Experience = ({ data }: IExperienceProps) => {
-	const { title, period, subtitle, hyperlinks, description } = data;
+	const { title, period, subtitle, additional, hyperlinks, description } = data;
 
 	return (
 		<div className={style.Container}>
 			<Company title={title} />
 			{period && <EmploymentPeriod period={period} />}
-			{subtitle && <JobPosition subtitle={subtitle} />}
+			{subtitle && <JobPosition subtitle={subtitle} additional={additional} />}
 			{hyperlinks?.length && (
 				<div className={style.Hyperlinks__Container}>
 					{hyperlinks.map((item) => (

@@ -35,24 +35,28 @@
 				{
 					"title": "Desarrollador Frontend",
 					"subtitle": "Lilab",
-					"period": "Junio 2023 - actualidad",
+					"additional": "Lima, Perú",
+					"period": "Junio 2023 - Actualidad",
 					"description": "Implementación avanzada de pruebas unitarias utilizando Jest para asegurar la robustez y fiabilidad de los componentes React./sDesarrollo y conversión meticulosa de interfaces desde prototipos de alta fidelidad a código funcional, manteniendo la integridad del diseño original./sIntegración eficiente de Server Side Rendering (SSR) en prototipos, guiado por especificaciones de User Histories (UH), optimizando la carga y el rendimiento./sRealización de demostraciones centradas en la experiencia del usuario, destacando funcionalidades y flujos de interacción intuitivos./sCoordinación y estimación precisa de tareas dentro del equipo, fomentando una colaboración eficaz y un enfoque orientado a resultados./sContribución activa en la evolución y mejora de la arquitectura de proyectos, enfocándome en la escalabilidad y mantenibilidad./sLiderazgo en la integración de cambios de APIs y conexión con microservicios, garantizando una comunicación fluida y segura entre sistemas./sParticipación estratégica en la planificación de mejoras del modelo de negocio, evaluando su impacto en la experiencia del usuario y la propuesta de valor."
 				},
 				{
 					"title": "Desarrollador de software",
 					"subtitle": "bdtglobal",
+					"additional": "Buenos Aires, Argentina",
 					"period": "Febrero 2022 - Agosto 2023 · 1 año 7 meses",
 					"description": "Migración exitosa de aplicaciones Cordova a React Native./sPresentación de nuevas características, demostrando habilidades comunicativas y técnicas./sRealización de despliegues semanales a entorno de producción, atendiendo a una amplia base de usuarios en la industria de seguros en Argentina./sCoordinación eficaz en proyectos internacionales de smart-contracts en la red Polygon, gestionando trabajo paralelo de manera efectiva./sMantenimiento y desarrollo de portales de gestión de usuarios utilizando tecnologías Laravel y Node, asegurando funcionalidad y rendimiento./sContribución valiosa como consultor de diseño en integraciones de proyectos externos, aportando perspectivas técnicas y creativas."
 				},
 				{
 					"title": "Diseñador UX/UI y Desarrollador Freelance",
 					"subtitle": "Freelancer",
+					"additional": "Buenos Aires, Argentina",
 					"period": "Agosto 2020 - Septiembre 2022 · 2 años 2 meses",
 					"description": "Realización del diseño de branding para negocios de diversas industrias, destacando la versatilidad y adaptabilidad creativa./sDesarrollo exitoso de Progressive Web Apps utilizando el stack PERN, asegurando experiencias web avanzadas y funcionales./sPlanificación estratégica de resultados y estimaciones por etapas, garantizando transparencia y eficiencia en el proceso./sComunicación efectiva con clientes de diversas edades, demostrando habilidades para comprender y satisfacer sus expectativas sobre el producto final./sHabilidad destacada en la gestión del tiempo, manejando proyectos de manera paralela con eficacia y compromiso."
 				},
 				{
 					"title": "Analista Desarrollador",
 					"subtitle": "BDT Group SRL",
+					"additional": "Buenos Aires, Argentina",
 					"period": "Julio 2021 - Diciembre 2021 · 6 meses",
 					"description": "Realización integral del diseño, desarrollo y maquetación de un portal destinado a la eficiente gestión de miles de usuarios de clientes en el sector de la energía en Argentina./sDesarrollo de software específico para la gestión de notificaciones virtuales en colegios secundarios de la Ciudad Autónoma de Buenos Aires, fortaleciendo la comunicación efectiva entre la institución educativa y los padres de los estudiantes."
 				}

@@ -18,6 +18,7 @@ interface IContentSections {
 interface IExperience {
 	title: string;
 	subtitle?: string;
+	additional?: string;
 	period?: string;
 	hyperlinks?: IHyperlink[];
 	description: string;
