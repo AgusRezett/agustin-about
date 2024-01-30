@@ -10,7 +10,7 @@ const JobPosition = ({ subtitle, additional }: IJobPositionProps) => {
 	return (
 		<h4 className={style.Text}>
 			{subtitle}
-			<span className={style.Additional}>- {additional}</span>
+			{additional && <span className={style.Additional}>- {additional}</span>}
 		</h4>
 	);
 };
