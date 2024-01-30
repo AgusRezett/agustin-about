@@ -8,7 +8,7 @@ interface IHyperlinkProps {
 
 const Hyperlink = ({ hyperlink }: IHyperlinkProps) => {
 	return (
-		<a target="blank" href={hyperlink.link} className={style.Tag}>
+		<a target="_blank" href={hyperlink.link} className={style.Tag}>
 			<IoChevronForward />
 			{hyperlink.name}
 		</a>
