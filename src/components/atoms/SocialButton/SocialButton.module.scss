@@ -1,0 +1,24 @@
+@import '../../../styles/mixins';
+
+.Container {
+	@include flex(row, center, center);
+	gap: 1rem;
+	flex: 1;
+
+	background-color: var(--background-color-lighter);
+	padding: 0.8rem 0px;
+	text-decoration: none;
+	color: var(--text-color);
+
+	border: 1px solid var(--background-color-lighter);
+	border-radius: 0.5rem;
+
+	transition: all var(--transition-duration) ease-in-out;
+	p {
+		margin-top: 1px;
+	}
+
+	&:hover {
+		border: 1px solid var(--background-color-border-lighter);
+	}
+}

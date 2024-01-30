@@ -5,6 +5,12 @@
 	gap: 1.5rem;
 }
 
+.SocialButtonsContainer {
+	@include flex(row, center, center);
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+
 .Container__Inner {
 	padding: 3rem 2rem 3rem 2rem;
 	@include flex(row, space-between, flex-start);

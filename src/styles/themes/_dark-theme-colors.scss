@@ -3,12 +3,14 @@ $secondary-color-dark: #212121;
 $text-color-dark: #f5f5f5;
 $background-color-dark: #161b24;
 $background-color-lighter-dark: #1f2634;
-$background-color-lighter-dark-hover: rgb(32, 40, 53);
+$background-color-border-lighter-dark: #2e394e;
+$background-color-lighter-dark-hover: #293547;
 $contrast-background-color-dark: #f5f5f5;
 
 :root[data-theme='theme-dark'] {
 	--background-color: #{$background-color-dark};
 	--background-color-lighter: #{$background-color-lighter-dark};
+	--background-color-border-lighter: #{$background-color-border-lighter-dark};
 	--background-color-lighter-hover: #{$background-color-lighter-dark-hover};
 	--contrast-background-color: #{$contrast-background-color-dark};
 	--primary-color: #{$primary-color-dark};

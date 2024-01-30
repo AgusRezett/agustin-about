@@ -15,14 +15,12 @@
 	padding: 0.6rem 1rem;
 	background-color: var(--background-color-lighter);
 	border-radius: 0.5rem;
-	border: 1px solid #eaeaea;
+	border: 1px solid var(--background-color-border-lighter);
 
 	font-weight: 600;
-	transition: background-color var(--transition-duration) ease-in-out;
+	transition: background-color var(--transition-duration) ease-in-out, border var(--transition-duration) ease-in-out;
 
 	&:hover {
 		background-color: var(--background-color-lighter-hover);
-
-		border-color: #eaeaea;
 	}
 }

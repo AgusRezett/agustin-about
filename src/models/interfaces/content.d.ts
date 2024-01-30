@@ -5,6 +5,8 @@ interface IAbout {
 	email: string;
 	profile: string;
 	seniority: string;
+	linkedin: string;
+	github: string;
 }
 
 interface IContentSections {

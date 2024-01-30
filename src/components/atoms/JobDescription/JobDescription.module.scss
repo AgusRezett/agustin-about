@@ -20,8 +20,9 @@
 	height: 0.4rem;
 	aspect-ratio: 1;
 	border-radius: 50%;
-	background-color: var(--background-color);
+	background-color: var(--background-color-border-lighter);
 	margin-top: 0.6rem;
+	transition: background-color var(--transition-duration) ease-in-out;
 }
 
 .List__Item__FirstWord {
