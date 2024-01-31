@@ -1,5 +1,9 @@
 @import '../../../styles/mixins';
 
+.Description {
+	line-height: 1.8rem;
+}
+
 .List {
 	@include flex(column, flex-start, flex-start);
 	gap: 0.5rem;
@@ -28,4 +32,8 @@
 .List__Item__FirstWord {
 	gap: 0.5rem;
 	font-weight: 700;
+}
+
+.List__Item__Content {
+	font-weight: 400;
 }
