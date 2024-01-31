@@ -1,5 +1,8 @@
+$cards-shadow: 2px 4px 12px rgba(0, 0, 0, 0.05);
+
 $transition-duration: 300ms;
 
 :root {
+	--cards-shadow: #{$cards-shadow};
 	--transition-duration: #{$transition-duration};
 }

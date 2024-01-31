@@ -11,6 +11,8 @@
 	height: 15rem;
 	border-radius: 50%;
 	overflow: hidden;
+
+	box-shadow: var(--cards-shadow);
 	transition: box-shadow var(--transition-duration) ease-in-out;
 
 	&:hover {

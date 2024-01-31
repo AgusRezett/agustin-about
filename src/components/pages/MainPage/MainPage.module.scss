@@ -19,6 +19,7 @@
 
 	background-color: var(--background-color-lighter);
 	transition: background-color var(--transition-duration) ease-in-out;
+	box-shadow: var(--cards-shadow);
 
 	@media (width < 768px) {
 		@include flex(column, flex-start, flex-start);
