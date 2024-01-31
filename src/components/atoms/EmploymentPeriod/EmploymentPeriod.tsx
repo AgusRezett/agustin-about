@@ -6,11 +6,7 @@ interface IEmploymentPeriodProps {
 }
 
 const EmploymentPeriod = ({ period }: IEmploymentPeriodProps) => {
-	return (
-		<p className={style.Text}>
-			<strong>{period}</strong>
-		</p>
-	);
+	return <p className={style.Text}>{period}</p>;
 };
 
 export default EmploymentPeriod;
