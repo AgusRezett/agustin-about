@@ -15,7 +15,7 @@ root.render(
 			<LanguageProvider>
 				<App />
 				<SpeedInsights />
-				<Analytics mode={'production'} />;
+				<Analytics />;
 			</LanguageProvider>
 		</IconContext.Provider>
 	</React.StrictMode>
