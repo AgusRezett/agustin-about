@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import style from './About.module.scss';
-import FirstPic from '../../../assets/profile-pic.png';
-import SecondPic from '../../../assets/profile-pic-2.png';
+import FirstPic from '../../../assets/profile-pic.webp';
+import SecondPic from '../../../assets/profile-pic-2.webp';
 import { LanguageContext } from 'src/hooks/useLanguageContext';
 
 const About = () => {
