@@ -10,7 +10,7 @@ interface ISocialButtonProps {
 
 const SocialButton = ({ Icon, label, hyperlink }: ISocialButtonProps) => {
 	return (
-		<a className={style.Container} href={hyperlink} target="_blank">
+		<a className={style.Container} href={hyperlink} target="_blank" aria-label={`Open ${label}`}>
 			<Icon size={20} />
 			<p>{label}</p>
 		</a>
