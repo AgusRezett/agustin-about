@@ -28,7 +28,7 @@
 
 .Navigation {
 	@include flex(column, flex-start, flex-start);
-	width: 100%;
+	width: 30%;
 	height: 100%;
 
 	list-style: none;
@@ -42,4 +42,12 @@
 
 .Content {
 	@include flex(column, flex-start, flex-start);
+	width: 70%;
+}
+
+@media (width < 768px) {
+	.Navigation,
+	.Content {
+		width: 100%;
+	}
 }
