@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import style from './NavigationList.module.scss';
 import { LanguageContext } from 'src/hooks/useLanguageContext';
-import { IoArrowUp, IoArrowUpCircle, IoLogoGithub } from 'react-icons/io5';
+import { IoArrowUpCircle } from 'react-icons/io5';
 
 const NavigationList = () => {
 	const { content, language } = useContext(LanguageContext) as ILanguageContext;
