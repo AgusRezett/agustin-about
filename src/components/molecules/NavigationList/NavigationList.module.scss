@@ -9,14 +9,16 @@
 }
 
 .NavigationItem {
+	@include flex(row, space-between, center);
+	gap: 1rem;
 	width: 100%;
 	min-width: 150px;
-	cursor: pointer;
 	padding: 0.6rem 1rem;
 	background-color: var(--background-color-lighter);
 	border-radius: 0.5rem;
 	border: 1px solid var(--background-color-border-lighter);
 
+	cursor: pointer;
 	font-weight: 600;
 	transition: background-color var(--transition-duration) ease-in-out, border var(--transition-duration) ease-in-out;
 
