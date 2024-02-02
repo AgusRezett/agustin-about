@@ -1,7 +1,6 @@
 @import '../../../styles/mixins';
 
 .NavigationList {
-	position: relative;
 	@include flex(column, flex-start, flex-start);
 	gap: 1rem;
 	list-style: none;
@@ -19,7 +18,7 @@
 	border: 1px solid var(--background-color-border-lighter);
 
 	cursor: pointer;
-	font-weight: 600;
+	font: 600 1rem 'Nunito', sans-serif;
 	transition: background-color var(--transition-duration) ease-in-out, border var(--transition-duration) ease-in-out;
 
 	&:hover {

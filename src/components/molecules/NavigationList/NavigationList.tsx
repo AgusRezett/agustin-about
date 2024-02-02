@@ -1,10 +1,9 @@
 import React, { useContext } from 'react';
 import style from './NavigationList.module.scss';
 import { LanguageContext } from 'src/hooks/useLanguageContext';
-import { IoArrowUpCircle } from 'react-icons/io5';
 
 const NavigationList = () => {
-	const { content, language } = useContext(LanguageContext) as ILanguageContext;
+	const { content } = useContext(LanguageContext) as ILanguageContext;
 
 	const handleScroll = (sectionId: number) => {
 		const elementId = `content-section-${sectionId}`;
@@ -27,15 +26,6 @@ const NavigationList = () => {
 					{item.label}
 				</li>
 			))}
-			<li
-				className={style.NavigationItem}
-				onClick={() => {
-					window.scrollTo({ top: 0, behavior: 'smooth' });
-				}}
-			>
-				{language === 'en' ? 'Back to top' : 'Volver arriba'}
-				<IoArrowUpCircle size={20} />
-			</li>
 		</ul>
 	);
 };
