@@ -1,5 +1,5 @@
 interface ILanguageContext {
 	language: string;
-	setLanguage: (language: string) => void;
+	handleLanguageChange: (language: string) => void;
 	content: IContent;
 }

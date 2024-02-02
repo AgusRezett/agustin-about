@@ -5,14 +5,16 @@ import { toggleTheme } from 'src/utilities/themes';
 import { LanguageContext } from 'src/hooks/useLanguageContext';
 
 const Header = () => {
-	const languageContext = useContext(LanguageContext);
+	const languageContext = useContext(LanguageContext) as ILanguageContext;
 	const isEnglishMode = languageContext.language === 'en';
 	const [isDarkMode, setIsDarkMode] = useState(false);
 
 	return (
 		<header className={style.Container}>
 			<a className={style.Name} href="/">
-				<h1>Agustin Rezett</h1>
+				<h1>
+					{languageContext.content.About.name} {languageContext.content.About.lastName}
+				</h1>
 			</a>
 			<div className={style.Menu}>
 				<span className={style.Menu__item} onClick={() => languageContext.handleLanguageChange(isEnglishMode ? 'es' : 'en')}>
