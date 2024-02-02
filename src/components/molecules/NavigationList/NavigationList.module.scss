@@ -19,6 +19,7 @@
 
 	cursor: pointer;
 	font: 600 1rem 'Nunito', sans-serif;
+	color: var(--text-color);
 	transition: background-color var(--transition-duration) ease-in-out, border var(--transition-duration) ease-in-out;
 
 	&:hover {
