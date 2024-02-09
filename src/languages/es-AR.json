@@ -4,7 +4,7 @@
 		"lastName": "Rezett",
 		"profession": "Desarrollador React",
 		"email": "agustin.rezett@gmail.com",
-		"profile": "Hola!👋🏻 Soy Agustín, un desarrollador Frontend Ssr. con +YEARS_EXPERIENCE años de experiencia en tecnologías como React, Redux y Sass. Me especializo en interfaces web y aplicaciones nativas, destacando por liderazgo colaborativo y resolución creativa de problemas. Estoy abierto a nuevas oportunidades, especialmente aquellas que implementen limpieza de código y e impulsen innovación continua. ¡Conectemos para discutir cómo puedo contribuir a tu equipo! 🚀",
+		"profile": "Hola!👋🏻 Soy Agustín, un desarrollador Frontend Ssr. con +YEARS_EXPERIENCE años de experiencia en tecnologías como React, Redux y Sass. Me especializo en el diseño y desarrollo de interfaces web y aplicaciones nativas, destacando por liderazgo colaborativo y resolución creativa de problemas. Estoy abierto a nuevas oportunidades, especialmente aquellas que implementen limpieza de código e impulsen innovación continua. ¡Conectemos para discutir cómo puedo contribuir a tu equipo! 🚀",
 		"seniority": "Ssr.",
 		"linkedin": "https://www.linkedin.com/in/agustin-rezett/",
 		"github": "https://github.com/AgusRezett"
@@ -89,11 +89,11 @@
 					"description": "En Argentina, en enero de 2022, Red Link registró un récord de 43.7 millones de usuarios de dinero digital y un aumento del 87.7% en transacciones a través de billeteras digitales. Creé Mino, una app gratuita para centralizar fondos de billeteras digitales, cuentas bancarias y criptomonedas, ofreciendo una visión rápida y clara del estado financiero del usuario.",
 					"hyperlinks": [
 						{
-							"name": "App design thinking",
+							"name": "Visitar MobileApp (design thinking)",
 							"link": "https://www.behance.net/gallery/147025537/Mino-App-Finanzas-personales"
 						},
 						{
-							"name": "Sitio web (demo)",
+							"name": "Visitar Sitio web (demo)",
 							"link": "https://mino-agusrezett.vercel.app/"
 						}
 					]
@@ -103,7 +103,7 @@
 					"description": "EcoTech, con sede en San Luis, Argentina, nos desafió a atraer clientes potenciales. Desarrollamos un sitio web que enfatiza la seguridad y la confianza, es fácil de usar, visualmente atractivo e incluye llamadas a la acción efectivas que conducen al contacto con el cliente.",
 					"hyperlinks": [
 						{
-							"name": "Prototipo interactivo",
+							"name": "Ir a Prototipo interactivo",
 							"link": "https://www.figma.com/proto/Glal1fjNc3WnNlaHubVr3N/System-Design?node-id=1%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3"
 						}
 					]
