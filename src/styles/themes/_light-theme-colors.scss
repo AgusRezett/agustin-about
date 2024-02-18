@@ -2,6 +2,8 @@ $primary-color-light: #f9f9f8;
 $secondary-color-light: #fafaf7;
 $text-color-light: #20110e;
 $text-color-lower-light: #d1ab49;
+$category-color-light: #ffffff;
+$category-background-color-light: #486f41;
 
 $background-color-light: #f9f9f8;
 $background-color-lighter-light: #ffffff;
@@ -19,4 +21,6 @@ $contrast-background-color-light: #241511;
 	--secondary-color: #{$secondary-color-light};
 	--text-color: #{$text-color-light};
 	--text-color-lower: #{$text-color-lower-light};
+	--category-color: #{$category-color-light};
+	--category-background-color: #{$category-background-color-light};
 }

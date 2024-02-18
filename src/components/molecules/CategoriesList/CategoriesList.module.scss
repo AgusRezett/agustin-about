@@ -1,0 +1,54 @@
+@import '../../../styles/mixins';
+
+.Categories__container {
+	position: relative;
+	width: 100%;
+	@include flex(row, flex-start, flex-start);
+	gap: 0.6rem;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 30px;
+		left: 7px;
+
+		width: 2px;
+		height: calc(100% - 32px);
+		border-radius: 5px;
+		background-color: var(--background-color-border-lighter);
+		z-index: 5;
+		transition: transform var(--transition-duration) ease, opacity var(--transition-duration) ease;
+	}
+}
+
+.Categories__button {
+	all: unset;
+	position: relative;
+	@include flex(column, center, center);
+	margin-top: 0.3rem;
+}
+
+.Categories__toggler {
+	cursor: pointer;
+}
+
+.Categories__toggler__close {
+	position: absolute;
+}
+
+.Categories__toggler__hide {
+	transform: scale(0);
+	opacity: 0;
+}
+
+.Categories__list {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	max-height: 28px;
+
+	gap: 0.6rem;
+	overflow: hidden;
+	transition: all var(--transition-duration) ease-in-out;
+}

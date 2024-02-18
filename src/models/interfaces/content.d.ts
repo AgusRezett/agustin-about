@@ -22,6 +22,7 @@ interface IExperience {
 	period?: string;
 	hyperlinks?: IHyperlink[];
 	description: string;
+	categories?: string[];
 }
 
 interface IHyperlink {

@@ -37,21 +37,80 @@
 					"subtitle": "Lilab",
 					"additional": "Lima, Peru",
 					"period": "June 2023 - Present",
-					"description": "Advanced implementation of unit testing using Jest to ensure the robustness and reliability of React components./sDevelopment and meticulous conversion of interfaces from high-fidelity prototypes to functional code, preserving the integrity of the original design./sEfficient integration of Server-Side Rendering (SSR) into prototypes, guided by User Histories (UH) specifications, optimizing loading and performance./sConducting user-focused demonstrations, highlighting intuitive features and interaction flows./sCoordination and accurate task estimation within the team, fostering effective collaboration and results-oriented approach./sActive contribution to the evolution and improvement of project architecture, focusing on scalability and maintainability./sLeadership in API changes integration and connection with microservices, ensuring smooth and secure communication between systems./sStrategic participation in business model improvement planning, evaluating its impact on user experience and value proposition."
+					"description": "Advanced implementation of unit testing using Jest to ensure the robustness and reliability of React components./sDevelopment and meticulous conversion of interfaces from high-fidelity prototypes to functional code, preserving the integrity of the original design./sEfficient integration of Server-Side Rendering (SSR) into prototypes, guided by User Histories (UH) specifications, optimizing loading and performance./sConducting user-focused demonstrations, highlighting intuitive features and interaction flows./sCoordination and accurate task estimation within the team, fostering effective collaboration and results-oriented approach./sActive contribution to the evolution and improvement of project architecture, focusing on scalability and maintainability./sLeadership in API changes integration and connection with microservices, ensuring smooth and secure communication between systems./sStrategic participation in business model improvement planning, evaluating its impact on user experience and value proposition.",
+					"categories": [
+						"React",
+						"Redux",
+						"Sass",
+						"Jest",
+						"TypeScript",
+						"User Stories",
+						"APIs",
+						"Git",
+						"Microservices",
+						"Software architecture",
+						"ClickUp",
+						"Google Suit",
+						"Figma",
+						"CI/CD",
+						"Atomic Design",
+						"Scrum",
+						"Design Thinking",
+						"UX/UI",
+						"Demos"
+					]
 				},
 				{
 					"title": "Software developer",
 					"subtitle": "bdtglobal",
 					"additional": "Buenos Aires, Argentina",
 					"period": "February 2022 - August 2023 · 1 year 7 month",
-					"description": "Successful migration of Cordova applications to React Native./sPresentation of new features, demonstrating both communication and technical skills./sWeekly deployment to a production environment, catering to a broad user base in the insurance industry in Argentina./sEfficient coordination in international projects involving smart contracts on the Polygon network, managing parallel work effectively./sMaintenance and development of user management portals using Laravel and Node technologies, ensuring functionality and performance./sValuable contribution as a design consultant in external project integrations, providing both technical and creative perspectives."
+					"description": "Successful migration of Cordova applications to React Native./sPresentation of new features, demonstrating both communication and technical skills./sWeekly deployment to a production environment, catering to a broad user base in the insurance industry in Argentina./sEfficient coordination in international projects involving smart contracts on the Polygon network, managing parallel work effectively./sMaintenance and development of user management portals using Laravel and Node technologies, ensuring functionality and performance./sValuable contribution as a design consultant in external project integrations, providing both technical and creative perspectives.",
+					"categories": [
+						"React Native",
+						"React",
+						"Cordova",
+						"Node",
+						"Php",
+						"Laravel",
+						"MySQL",
+						"Smart Contracts",
+						"VPN",
+						"Bitbucket",
+						"Scrum",
+						"Trello",
+						"Slack"
+					]
 				},
 				{
 					"title": "Freelance UX/UI Designer & Developer",
 					"subtitle": "Freelancer",
 					"additional": "Buenos Aires, Argentina",
 					"period": "August 2020 - September 2022 · 2 years 2 months",
-					"description": "Designing distinctive branding for businesses across various industries, emphasizing versatility and creative adaptability./sSuccessful development of Progressive Web Apps using the PERN stack, ensuring advanced and functional web experiences./sStrategic planning of results and phased estimates, ensuring transparency and efficiency in the process./sEffective communication with clients of diverse age groups, demonstrating skills to understand and meet their expectations for the final product./sOutstanding time management abilities, effectively handling parallel projects with efficiency and commitment."
+					"description": "Designing distinctive branding for businesses across various industries, emphasizing versatility and creative adaptability./sSuccessful development of Progressive Web Apps using the PERN stack, ensuring advanced and functional web experiences./sStrategic planning of results and phased estimates, ensuring transparency and efficiency in the process./sEffective communication with clients of diverse age groups, demonstrating skills to understand and meet their expectations for the final product./sOutstanding time management abilities, effectively handling parallel projects with efficiency and commitment.",
+					"categories": [
+						"React",
+						"Redux",
+						"Node",
+						"Express",
+						"PostgreSQL",
+						"Vercel",
+						"Firebase",
+						"Progressive Web Apps",
+						"Google Analytics",
+						"SEO",
+						"Adobe Photoshop",
+						"Adobe Illustrator",
+						"Figma",
+						"UX/UI",
+						"Branding",
+						"Design Thinking",
+						"Scrum",
+						"Demos",
+						"Client communication",
+						"Time management",
+						"Compromise"
+					]
 				},
 				{
 					"title": "Analyst developer",

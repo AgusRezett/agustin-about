@@ -1,0 +1,17 @@
+.Category {
+	width: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.3rem 0.7rem;
+	border-radius: 1rem;
+	background-color: var(--category-background-color);
+	color: var(--category-color);
+
+	font: 600 0.8rem 'Nunito', sans-serif;
+	transition: background-color var(--transition-duration) ease;
+
+	/* &:hover {
+		background-color: #e0e0e0;
+	} */
+}
