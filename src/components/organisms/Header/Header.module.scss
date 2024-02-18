@@ -46,39 +46,10 @@
 		text-transform: uppercase;
 
 		p {
-			padding-top: 2px;
+			font-family: 'Nunito', sans-serif;
 			transition: all var(--transition-duration) ease-in-out;
 		}
 	}
-}
-
-.Scanner {
-	position: relative;
-	top: 0;
-	left: -100%;
-	width: 100%;
-	height: 100%;
-	background-color: var(--background-color);
-	pointer-events: none;
-	z-index: 1;
-}
-
-@keyframes scan-line {
-	0% {
-		left: -100%;
-		opacity: 1;
-	}
-	50% {
-		left: 0;
-	}
-	100% {
-		left: 100%;
-		opacity: 0;
-	}
-}
-
-.Scanner__animation {
-	animation: scan-line var(--transition-duration) ease forwards;
 }
 
 .Icon__moon__animation__hide,
