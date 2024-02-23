@@ -1,3 +1,17 @@
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 400;
+	src: url('./fonts/ProximaNova/proximanova_regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	font-style: normal;
+	font-weight: 700;
+	src: url('./fonts/ProximaNova/proximanova_bold.otf') format('opentype');
+}
+
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -11,7 +25,7 @@ html {
 
 body {
 	margin: 0;
-	font-family: 'Nunito', 'Roboto', sans-serif;
+	font-family: 'Proxima Nova', 'Nunito', 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }

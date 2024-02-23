@@ -1,4 +1,15 @@
+@import '../../../styles/mixins';
+
 .Title {
+	@include flex(row, flex-start, center);
+	width: 100%;
 	font-size: 2rem;
-	text-decoration: underline;
+	gap: 1rem;
+
+	&::after {
+		content: '';
+		width: 100%;
+		height: 2px;
+		background-color: var(--background-color-border-lighter);
+	}
 }
