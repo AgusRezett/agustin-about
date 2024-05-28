@@ -166,6 +166,10 @@
 							"link": "https://www.figma.com/proto/Glal1fjNc3WnNlaHubVr3N/System-Design?node-id=1%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3"
 						}
 					]
+				},
+				{
+					"title": "Zymple - Business SaaS platform",
+					"description": "In 2023, Zymple set out to transform daily business management and electronic invoicing for small and medium-sized enterprises in Latin America. I collaborated in the development of an intuitive platform that enables users to manage their electronic invoices efficiently and securely. The Zymple platform stands out for its integration with multiple payment gateways, including Culqi, and its ability to generate detailed transaction reports. Additionally, it offers advanced business management functions, allowing companies to monitor their finances, control inventories, manage clients, and their professional staff from a single interface. Our goal was to simplify and streamline the invoicing process, ensuring compliance with local regulations and providing a complex experience in a \"Zymple\" way."
 				}
 			]
 		},
