@@ -144,6 +144,20 @@
 			"title": "Proyects",
 			"content": [
 				{
+					"title": "Zymple - Business SaaS platform",
+					"description": "In 2023, Zymple set out to transform daily business management and electronic invoicing for small and medium-sized enterprises in Latin America. I collaborated in the development of an intuitive platform that enables users to manage their electronic invoices efficiently and securely. The Zymple platform stands out for its integration with multiple payment gateways, including Culqi, and its ability to generate detailed transaction reports. Additionally, it offers advanced business management functions, allowing companies to monitor their finances, control inventories, manage clients, and their professional staff from a single interface. Our goal was to simplify and streamline the invoicing process, ensuring compliance with local regulations and providing a complex experience in a \"Zymple\" way."
+				},
+				{
+					"title": "SocioSostenible - AI-powered Business Sustainability Platform",
+					"description": "In a world increasingly aware of the environmental and social impact of businesses, many organizations face difficulties in adopting sustainable practices that promote compliance with the United Nations Sustainable Development Goals (SDGs). SocioSostenible facilitates the transition to sustainable and responsible business practices by connecting agents with customized solutions through artificial intelligence, designed to address the specific challenges of each organization, aiming to facilitate the process of obtaining recognized licenses and certifications.",
+					"hyperlinks": [
+						{
+							"name": "Visit System Design",
+							"link": "https://www.figma.com/design/sZPMJQoBrLhjqTh22KHxYp/SocioSostenible---System-Design?node-id=1-348&t=qSi1R6My5nIED4Gr-1"
+						}
+					]
+				},
+				{
 					"title": "Mino - Personal finance app",
 					"description": "In Argentina, in January 2022, Red Link recorded a record 43.7 million digital money users and an 87.7% increase in transactions through digital wallets. I created Mino, a free app to centralize funds from digital wallets, bank accounts, and cryptocurrencies, offering users a quick and clear view of their financial status.",
 					"hyperlinks": [
@@ -166,10 +180,6 @@
 							"link": "https://www.figma.com/proto/Glal1fjNc3WnNlaHubVr3N/System-Design?node-id=1%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3"
 						}
 					]
-				},
-				{
-					"title": "Zymple - Business SaaS platform",
-					"description": "In 2023, Zymple set out to transform daily business management and electronic invoicing for small and medium-sized enterprises in Latin America. I collaborated in the development of an intuitive platform that enables users to manage their electronic invoices efficiently and securely. The Zymple platform stands out for its integration with multiple payment gateways, including Culqi, and its ability to generate detailed transaction reports. Additionally, it offers advanced business management functions, allowing companies to monitor their finances, control inventories, manage clients, and their professional staff from a single interface. Our goal was to simplify and streamline the invoicing process, ensuring compliance with local regulations and providing a complex experience in a \"Zymple\" way."
 				}
 			]
 		},

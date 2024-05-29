@@ -144,6 +144,20 @@
 			"title": "Proyectos",
 			"content": [
 				{
+					"title": "Zymple - Plataforma de gestión de negocios",
+					"description": "En 2023, Zymple se propuso transformar la gestión empresarial diaria y la facturación electrónica para pequeñas y medianas empresas en América Latina. Colaboré en el desarrollo de una plataforma intuitiva que permite a los usuarios gestionar sus facturas electrónicas de manera eficiente y segura. La plataforma Zymple se destaca por su integración con múltiples pasarelas de pago, incluyendo Culqi, y su capacidad para generar informes detallados de transacciones. Además, ofrece avanzadas funciones de gestión empresarial, permitiendo a las empresas monitorear sus finanzas, controlar inventarios, gestionar clientes y su personal profesional desde una sola interfaz. Nuestra meta fue simplificar y agilizar el proceso de facturación, asegurando el cumplimiento con las normativas locales y ofreciendo una experiencia compleja de manera \"Zymple\"."
+				},
+				{
+					"title": "SocioSostenible - Plataforma de sostenibilidad empresarial con IA",
+					"description": "En un mundo cada vez más consciente del impacto ambiental y social de las empresas, muchas organizaciones enfrentan dificultades para adoptar prácticas sostenibles que promuevan el cumplimiento de los Objetivos de Desarrollo Sostenible (ODS) de las Naciones Unidas. SocioSostenible facilita la transición hacia prácticas empresariales sostenibles y responsables al conectar mediante inteligencia artificial a los agentes con soluciones personalizadas diseñadas para abordar los desafíos específicos de cada organización, afín de facilitar el proceso de obtención de licencias y certificaciones reconocidas.",
+					"hyperlinks": [
+						{
+							"name": "Ir a System Design",
+							"link": "https://www.figma.com/design/sZPMJQoBrLhjqTh22KHxYp/SocioSostenible---System-Design?node-id=1-348&t=qSi1R6My5nIED4Gr-1"
+						}
+					]
+				},
+				{
 					"title": "Mino - App de finanzas personales",
 					"description": "En Argentina, en enero de 2022, Red Link registró un récord de 43.7 millones de usuarios de dinero digital y un aumento del 87.7% en transacciones a través de billeteras digitales. Creé Mino, una app gratuita para centralizar fondos de billeteras digitales, cuentas bancarias y criptomonedas, ofreciendo una visión rápida y clara del estado financiero del usuario.",
 					"hyperlinks": [
@@ -166,10 +180,6 @@
 							"link": "https://www.figma.com/proto/Glal1fjNc3WnNlaHubVr3N/System-Design?node-id=1%3A3&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A3"
 						}
 					]
-				},
-				{
-					"title": "Zymple - Plataforma de gestión de negocios",
-					"description": "En 2023, Zymple se propuso transformar la gestión empresarial diaria y la facturación electrónica para pequeñas y medianas empresas en América Latina. Colaboré en el desarrollo de una plataforma intuitiva que permite a los usuarios gestionar sus facturas electrónicas de manera eficiente y segura. La plataforma Zymple se destaca por su integración con múltiples pasarelas de pago, incluyendo Culqi, y su capacidad para generar informes detallados de transacciones. Además, ofrece avanzadas funciones de gestión empresarial, permitiendo a las empresas monitorear sus finanzas, controlar inventarios, gestionar clientes y su personal profesional desde una sola interfaz. Nuestra meta fue simplificar y agilizar el proceso de facturación, asegurando el cumplimiento con las normativas locales y ofreciendo una experiencia compleja de manera \"Zymple\"."
 				}
 			]
 		},
