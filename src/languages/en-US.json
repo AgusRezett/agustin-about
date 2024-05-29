@@ -40,6 +40,7 @@
 					"description": "Advanced implementation of unit testing using Jest to ensure the robustness and reliability of React components./sDevelopment and meticulous conversion of interfaces from high-fidelity prototypes to functional code, preserving the integrity of the original design./sEfficient integration of Server-Side Rendering (SSR) into prototypes, guided by User Histories (UH) specifications, optimizing loading and performance./sConducting user-focused demonstrations, highlighting intuitive features and interaction flows./sCoordination and accurate task estimation within the team, fostering effective collaboration and results-oriented approach./sActive contribution to the evolution and improvement of project architecture, focusing on scalability and maintainability./sLeadership in API changes integration and connection with microservices, ensuring smooth and secure communication between systems./sStrategic participation in business model improvement planning, evaluating its impact on user experience and value proposition.",
 					"categories": [
 						"React",
+						"Single-SPA",
 						"Redux",
 						"Sass",
 						"Jest",
