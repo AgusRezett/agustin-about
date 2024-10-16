@@ -8,14 +8,16 @@ import { LanguageProvider } from './hooks/useLanguageContext';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Analytics } from '@vercel/analytics/react';
 
-const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
+const root = ReactDOM.createRoot(
+	document.getElementById('root') as HTMLElement
+);
 root.render(
 	<React.StrictMode>
 		<IconContext.Provider value={{ className: 'global-icons' }}>
 			<LanguageProvider>
 				<App />
 				<SpeedInsights />
-				<Analytics />;
+				<Analytics />
 			</LanguageProvider>
 		</IconContext.Provider>
 	</React.StrictMode>
