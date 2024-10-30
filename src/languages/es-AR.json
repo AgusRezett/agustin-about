@@ -145,6 +145,10 @@
 			"title": "Proyectos",
 			"content": [
 				{
+					"title": "Flees - Plataforma de gestión de equipos",
+					"description": "Flees es una plataforma de gestión de proyectos que utiliza inteligencia artificial para optimizar la comunicación y organización de equipos de trabajo. La plataforma centraliza la información de cada proyecto, permitiendo a los usuarios publicar reportes, gestionar tareas y acceder a documentos importantes en tiempo real. Flees incluye un sistema de notificaciones, herramientas para clasificar información de manera automática, y un sistema de chat en vivo. Su objetivo es mejorar la eficiencia, asegurando que toda la información relevante esté disponible y organizada en un solo lugar. Flees está diseñado para equipos de todos los tamaños que buscan simplificar y mejorar su colaboración diaria."
+				},
+				{
 					"title": "Zymple - Plataforma de gestión de negocios",
 					"description": "En 2023, Zymple se propuso transformar la gestión empresarial diaria y la facturación electrónica para pequeñas y medianas empresas en América Latina. Colaboré en el desarrollo de una plataforma intuitiva que permite a los usuarios gestionar sus facturas electrónicas de manera eficiente y segura. La plataforma Zymple se destaca por su integración con múltiples pasarelas de pago, incluyendo Culqi, y su capacidad para generar informes detallados de transacciones. Además, ofrece avanzadas funciones de gestión empresarial, permitiendo a las empresas monitorear sus finanzas, controlar inventarios, gestionar clientes y su personal profesional desde una sola interfaz. Nuestra meta fue simplificar y agilizar el proceso de facturación, asegurando el cumplimiento con las normativas locales y ofreciendo una experiencia compleja de manera \"Zymple\"."
 				},

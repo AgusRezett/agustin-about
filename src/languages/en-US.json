@@ -145,6 +145,10 @@
 			"title": "Proyects",
 			"content": [
 				{
+					"title": "Flees - Team Management Platform",
+					"description": "Flees is a project management platform that leverages artificial intelligence to enhance team communication and organization. The platform centralizes project information, allowing users to publish reports, manage tasks, and access important documents in real time. Flees includes a notification system, tools for automatic information categorization, and a live chat feature. Its goal is to boost efficiency by ensuring all relevant information is available and organized in one place. Flees is designed for teams of all sizes looking to simplify and improve their daily collaboration."
+				},
+				{
 					"title": "Zymple - Business SaaS platform",
 					"description": "In 2023, Zymple set out to transform daily business management and electronic invoicing for small and medium-sized enterprises in Latin America. I collaborated in the development of an intuitive platform that enables users to manage their electronic invoices efficiently and securely. The Zymple platform stands out for its integration with multiple payment gateways, including Culqi, and its ability to generate detailed transaction reports. Additionally, it offers advanced business management functions, allowing companies to monitor their finances, control inventories, manage clients, and their professional staff from a single interface. Our goal was to simplify and streamline the invoicing process, ensuring compliance with local regulations and providing a complex experience in a \"Zymple\" way."
 				},
