@@ -146,7 +146,13 @@
 			"content": [
 				{
 					"title": "Flees - Plataforma de gestión de equipos",
-					"description": "Flees es una plataforma de gestión de proyectos que utiliza inteligencia artificial para optimizar la comunicación y organización de equipos de trabajo. La plataforma centraliza la información de cada proyecto, permitiendo a los usuarios publicar reportes, gestionar tareas y acceder a documentos importantes en tiempo real. Flees incluye un sistema de notificaciones, herramientas para clasificar información de manera automática, y un sistema de chat en vivo. Su objetivo es mejorar la eficiencia, asegurando que toda la información relevante esté disponible y organizada en un solo lugar. Flees está diseñado para equipos de todos los tamaños que buscan simplificar y mejorar su colaboración diaria."
+					"description": "Flees es una plataforma de gestión de proyectos que utiliza inteligencia artificial para optimizar la comunicación y organización de equipos de trabajo. La plataforma centraliza la información de cada proyecto, permitiendo a los usuarios publicar reportes, gestionar tareas y acceder a documentos importantes en tiempo real. Flees incluye un sistema de notificaciones, herramientas para clasificar información de manera automática, y un sistema de chat en vivo. Su objetivo es mejorar la eficiencia, asegurando que toda la información relevante esté disponible y organizada en un solo lugar. Flees está diseñado para equipos de todos los tamaños que buscan simplificar y mejorar su colaboración diaria.",
+					"hyperlinks": [
+						{
+							"name": "Visitar Sitio web (beta)",
+							"link": "https://flees.vercel.app"
+						}
+					]
 				},
 				{
 					"title": "Zymple - Plataforma de gestión de negocios",

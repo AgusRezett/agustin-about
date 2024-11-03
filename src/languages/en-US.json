@@ -146,7 +146,13 @@
 			"content": [
 				{
 					"title": "Flees - Team Management Platform",
-					"description": "Flees is a project management platform that leverages artificial intelligence to enhance team communication and organization. The platform centralizes project information, allowing users to publish reports, manage tasks, and access important documents in real time. Flees includes a notification system, tools for automatic information categorization, and a live chat feature. Its goal is to boost efficiency by ensuring all relevant information is available and organized in one place. Flees is designed for teams of all sizes looking to simplify and improve their daily collaboration."
+					"description": "Flees is a project management platform that leverages artificial intelligence to enhance team communication and organization. The platform centralizes project information, allowing users to publish reports, manage tasks, and access important documents in real time. Flees includes a notification system, tools for automatic information categorization, and a live chat feature. Its goal is to boost efficiency by ensuring all relevant information is available and organized in one place. Flees is designed for teams of all sizes looking to simplify and improve their daily collaboration.",
+					"hyperlinks": [
+						{
+							"name": "Visit Website (beta)",
+							"link": "https://flees.vercel.app"
+						}
+					]
 				},
 				{
 					"title": "Zymple - Business SaaS platform",
